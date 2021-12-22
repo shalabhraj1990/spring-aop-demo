@@ -16,8 +16,10 @@ public class App {
 	public  CommandLineRunner init(HelloWorld helloWorld) {
 		return args -> {
 			helloWorld.sayHello();
-			helloWorld.sayHello1();
-			helloWorld.sayHello("hello world");
+			//helloWorld.sayHello1();
+			//helloWorld.sayHello("hello world");
+			helloWorld.throwExceptionRandon();
 		};
 	}
 }
+ 
